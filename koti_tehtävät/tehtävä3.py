@@ -18,11 +18,11 @@ class Auto:
         self.matka += self.nopeus * tunnit
 
 
-# Pääohjelma
+
 auto = Auto("ABC-123", 142)
 
 auto.kiihdytä(60)
 auto.kulje(1.5)
 
 print("Auton nopeus:", auto.nopeus, "km/h")
-print("Kuljettu matka:", auto.matka, "km")
+print("Kuljettu matka on:", auto.matka, "km") 
