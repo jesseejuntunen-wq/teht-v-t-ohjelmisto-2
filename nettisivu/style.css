@@ -22,7 +22,7 @@ body {
 
 
 .kuva {
-    background-color: black;
+    background-color: white;
     height: 100px;
    
 }
@@ -49,7 +49,7 @@ body {
 
 
 .ylapalkki {
-    background-color:black;
+    background-color:white;
     color: black;
     padding: 15px;
     display: flex;

@@ -1,0 +1,122 @@
+
+body {
+    background-color: rgb(63, 199, 223);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.tuotteet {
+    display: flex;
+    gap: 10px;
+}
+
+.tuote {
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    
+}
+
+
+
+
+.kuva {
+    background-color: black;
+    height: 100px;
+   
+}
+
+.tuote p {
+    line-height: 1.5;
+}
+
+
+.tuote img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+.ylapalkki {
+    background-color:green;
+    color: green;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+.logo {
+    width: auto;
+    height: 70px;
+ 
+}
+
+.etusivun-kuva {
+    height: calc(100vh - 80px);
+    background-image: url(https://humornama.com/wp-content/uploads/2022/02/Two-Spiderman-Meme-Template-on-Pointing-at-Each-Other.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.tervetuloa {
+    text-align: center;
+    font-size: 42px;
+    color: black;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+
+.etusivun-kuva {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://humornama.com/wp-content/uploads/2022/02/Spiderman-Pointing-Meme-Template-on-Pointing-at-Each-Other.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tervetuloa {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 3px 3px 6px black;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100%;
+}
+
+.etusivun-kuva {
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
