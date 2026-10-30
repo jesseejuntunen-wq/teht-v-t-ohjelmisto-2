@@ -1,0 +1,73 @@
+
+body {
+    background-color: red;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+
+.tuotteet {
+    display: flex;
+    gap: 10px;
+}
+
+.tuote {
+    padding: 10px;
+    margin: 5px;
+    flex: 1;
+    
+}
+
+
+
+
+.kuva {
+    background-color: white;
+    height: 100px;
+   
+}
+
+.tuote p {
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ylapalkki {
+    background-color:black;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+.logo {
+    width: auto;
+    height: 70px;
+ 
+}
+
+.etusivun-kuva {
+    height: calc(100vh - 80px);
+    background-image: url(https://humornama.com/wp-content/uploads/2022/02/Two-Spiderman-Meme-Template-on-Pointing-at-Each-Other.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
