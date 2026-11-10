@@ -10,10 +10,11 @@ try:
     vastaus = requests.get(haku)
     if vastaus.status_code==200:
         json_vastaus = vastaus.json()
-        Sää = print(json.dumps(json_vastaus["weather"][0]["description"],indent=2))
+        Sää = json.dumps(json_vastaus["weather"][0]["description"],indent=2)
         Asteet = float(json.dumps(json_vastaus["main"]["temp"],indent=2))
         Celsius = Asteet - 273.15
         print(Celsius)
+        print(f"Sää: {Sää} \nlämpötila: {Celsius}")
 except requests.exceptions.RequestException as e:
     print ("Hakua ei voitu suorittaa.")
 
